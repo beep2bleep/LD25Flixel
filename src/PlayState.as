@@ -179,41 +179,13 @@ package
 		{
 			
 			if(HelloWorld.Sounds)FlxG.play(SoundEffect2);
-			
-			
-			//var emitter:FlxEmitter = new FlxEmitter(_wall.x+(_wall.width/2),_wall.y+(_wall.height/2)); //x and y of the emitter
-			//var particles:int = 15;
-			//if (_wall.x = 0)
-			{
-			//create();
-			}
 		}
 		
 		private function hit(_ball:FlxSprite, _brick:FlxSprite):void
 		{
-			//_brick.flicker();
 			_brick.exists = false;
 			
 			if(HelloWorld.Sounds)FlxG.play(SoundEffect2);
-			
-			
-			//var emitter:FlxEmitter = new FlxEmitter(_brick.x+(_brick.width/2),_brick.y+(_brick.height/2)); //x and y of the emitter
-			//var particles:int = 5;
-			//
-			//
-			//
-			//for(var i:int = 0; i < particles; i++)
-			//{
-				//var particle:FlxParticle = new FlxParticle();
-				//var temp:String = _brick.color.toString(16);
-				//particle.makeGraphic(4, 4, 0x55ffffff);
-				//particle.exists = false;
-				//emitter.add(particle);
-			//}
-			 //
-			//add(emitter);
-			//emitter.start();
-			
 		}
 		
 		private function ping(_bat:FlxObject, _ball:FlxObject):void

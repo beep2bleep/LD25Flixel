@@ -14,11 +14,6 @@ package
 		public function HelloWorld()
 		{
 			super(320, 240, AttractState, 2, 60, 60); //Create a new FlxGame object at 320x240 with 2x pixels, then load PlayState
-			
-			
-			
-			
-			//FlxG.stream("ld25.mid",0.5,true);
 			forceDebugger = true;
 		}
 	}
